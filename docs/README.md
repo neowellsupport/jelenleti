@@ -23,3 +23,8 @@ Főoldal content
 
 [token:gray:SZÜRKE]
 
+
+
+kép linkelés a media mappából:
+
+![Alt text of the image](https://raw.githubusercontent.com/neowellsupport/jelenleti/main/media/1920.jpg)
