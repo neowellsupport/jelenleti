@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+  <meta charset="UTF-8">
+  <title>Dokumentáció</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify/lib/themes/vue.css">
+
+  <style>
+
+    .github-corner {
+      display:none;
+    }
+    .token {
+       display: inline-block;
+        padding: 5px 10px;
+        border-radius: 5px;
+        font-size: 12px;
+        font-weight: bold;
+        color: white;
+        line-height: 1;
+    }
+  </style>
+</head>
+<body>
+  <div id="app">Betöltés...</div>
+  <script>
+    window.$docsify = {
+      name: 'Projekt Neve',
+      repo: 'https://github.com/bkeresztes87-web/my-project-docs',
+      loadSidebar: true,   // Sidebar engedélyezése      
+      maxLevel: 4,
+      subMaxLevel: 2,
+      auto2top: true,      // Oldalváltáskor az elejére ugrik
+      search: {
+        maxAge: 1000,
+        placeholder: 'Keresés...',
+        noData: 'Nincs találat!',
+        depth: 6,
+        paths: 'auto'
+      },
+      plugins: [
+      function(hook, vm) {
+        hook.beforeEach(function(html) {
+          // A te felhasználóneved és repo neved alapján:
+          var url = 'https://github.com/bkeresztes87-web/my-project-docs/blob/main/docs/' + vm.route.file;
+          
+          var editHtml = '[📝 Szerkesztés GitHubon](' + url + ')\n\n';
+
+          html = html.replace(/\[token:(.*?):(.*?)\]/g, function(match, color, text) {
+            if(color == 'blue') color = '#337AB7';
+            if(color == 'red') color = '#D3455B';
+            if(color == 'yellow') color = '#F7C325';
+            if(color == 'green') color = '#1AAE9F';
+            if(color == 'gray') color = '#707070';
+            return '<span class="token" style="background-color: ' + color + ';">' + text + '</span>';
+          });
+          
+          return editHtml + html;
+        });
+      }
+    ],
+      'flexible-alerts': {
+        style: 'callout' // Vagy 'callout' a modernebb kinézethez
+      }
+    }
+  </script>
+  <script src="//cdn.jsdelivr.net/npm/docsify/lib/docsify.min.js"></script>
+  <script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/search.min.js"></script>
+  <script src="https://unpkg.com/docsify-plugin-flexible-alerts"></script>
+</body>
+</html>
