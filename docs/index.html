@@ -2,7 +2,7 @@
 <html lang="hu">
 <head>
   <meta charset="UTF-8">
-  <title>Dokumentáció</title>
+  <title>Jelenléti dokumentáció</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
   <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify/lib/themes/vue.css">
 
@@ -26,8 +26,8 @@
   <div id="app">Betöltés...</div>
   <script>
     window.$docsify = {
-      name: 'Projekt Neve',
-      repo: 'https://github.com/bkeresztes87-web/my-project-docs',
+      name: 'Jelenléti',
+      repo: 'https://github.com/neowellsupport/jelenleti',
       loadSidebar: true,   // Sidebar engedélyezése      
       maxLevel: 4,
       subMaxLevel: 2,
@@ -43,9 +43,9 @@
       function(hook, vm) {
         hook.beforeEach(function(html) {
           // A te felhasználóneved és repo neved alapján:
-          var url = 'https://github.com/bkeresztes87-web/my-project-docs/blob/main/docs/' + vm.route.file;
+          var url = 'https://github.com/neowellsupport/jelenleti/blob/main/docs/' + vm.route.file;
           
-          var editHtml = '[📝 Szerkesztés GitHubon](' + url + ')\n\n';
+          var editHtml = '[📝](' + url + ')\n\n';
 
           html = html.replace(/\[token:(.*?):(.*?)\]/g, function(match, color, text) {
             if(color == 'blue') color = '#337AB7';
