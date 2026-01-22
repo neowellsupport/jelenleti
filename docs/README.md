@@ -28,3 +28,7 @@ Főoldal content
 kép linkelés a media mappából:
 
 ![Alt text of the image](https://raw.githubusercontent.com/neowellsupport/jelenleti/main/media/1920.jpg)
+
+
+link másik pagere
+[Telepítés](telepites.md)
