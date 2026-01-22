@@ -1,7 +1,7 @@
 
 Főoldal content
 
-> [!TIP]
+> [!TIP|label:My own heading]
 > Ez egy zöld tipp doboz. Ideális "Hogyan csináld" tanácsokhoz.
 
 > [!NOTE]
