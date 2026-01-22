@@ -31,4 +31,5 @@ kép linkelés a media mappából:
 
 
 link másik pagere
-[Telepítés](telepites.md)
+
+[Telepítés](telepites.md#typographic-replacements)
