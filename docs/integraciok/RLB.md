@@ -6,6 +6,8 @@
 - Kódolás: [token:gray:UTF-8]
 - Fejléc: van, tartalom, egymás utáni cellákban: [token:gray:<cég neve>], [token:gray:<cég adószáma>], [token:gray:<exportált hónap>]  “éééé-hh” formátumban
 
+Az export oszlopai:
+
 ### Törzsszám 
 Cég alkalmazaottjához tartozó külső azonosító (törzsszám)
 
@@ -27,7 +29,7 @@ Munkarend szerinti napi óraszám azokra a napokra, ahol kategória SZ
 ### Betegszabadság (óra)
 Munkarend szerinti napi óraszám azokra a napokra, ahol kategória B
 
-### Rendkívüli munkaidő pihenõnapon 100% pótlékos (óra)
+### Rendkívüli munkaidő pihenőnapon 100% pótlékos (óra)
 Szumma beírt óraszám azokra a napokra, ahol kategória P, és a nap nem ünnepnap, és nem vasárnap.
 
 ### Rendkívüli munkaidő beosztás eltérés miatt 50% pótlékos (óra)
