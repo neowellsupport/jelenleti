@@ -27,10 +27,10 @@ Munkarend szerinti napi óraszám azokra a napokra, ahol kategória SZ
 ### Betegszabadság (óra)
 Munkarend szerinti napi óraszám azokra a napokra, ahol kategória B
 
-### Rendkívüli munkaidõ pihenõnapon 100% pótlékos (óra)
+### Rendkívüli munkaidő pihenõnapon 100% pótlékos (óra)
 Szumma beírt óraszám azokra a napokra, ahol kategória P, és a nap nem ünnepnap, és nem vasárnap.
 
-### Rendkívüli munkaidõ beosztás eltérés miatt 50% pótlékos (óra)
+### Rendkívüli munkaidő beosztás eltérés miatt 50% pótlékos (óra)
 Nincs használatban, fixen üres.
 
 ### Vasárnapi 50% pótlékos (óra)
@@ -48,13 +48,13 @@ Nincs használatban, fixen üres.
 ### Ledolgozott napok száma
 Napok száma, ahol nap kategória M, FSZ
 
-### Pihenõnapok száma
+### Pihenőnapok száma
 Napok száma, ahol nap kategória M, FSZ.
 
 ### Fizetett távollét
 Napok száma, ahol nap kategória SZ.
 
-### Állásidõ
+### Állásidő
 - **Munkakeret nélkül:** Azokra a napokra számolt különbség összege, melynek kategóriája M és a beírt órák száma kevesebb, mint a munkarend szerinti óraszám.
 - **Munkakerettel:** {Munkaidő keret hossza} - {Munkanapi munkaórák összesen}, ha a fenti érték nagyobb, mint nulla.
 
