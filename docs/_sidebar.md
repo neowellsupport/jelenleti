@@ -11,4 +11,4 @@
   - [Mappák kezelése](mappa1/guide.md)
 
 - Integrációk
-  - [RLB export] (integraciok/RLB.md) 
+  - [RLB export](integraciok/RLB.md) 
