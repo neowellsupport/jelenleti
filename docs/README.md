@@ -38,6 +38,11 @@ Főoldal content
 
 
 
+Ez egy [high:kiemelt] szöveg.
+Ez egy [low:secondary] szöveg.
+
+
+
 kép linkelés a media mappából:
 
 ![Alt text of the image](https://raw.githubusercontent.com/neowellsupport/jelenleti/main/media/1920.jpg)
