@@ -25,6 +25,19 @@ Főoldal content
 
 
 
+
+[badge:blue:KÉK]
+
+[badge:red:PIROS]
+
+[badge:green:ZÖLD]
+
+[badge:yellow:SÁRGA]
+
+[badge:gray:SZÜRKE]
+
+
+
 kép linkelés a media mappából:
 
 ![Alt text of the image](https://raw.githubusercontent.com/neowellsupport/jelenleti/main/media/1920.jpg)
