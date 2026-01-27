@@ -93,7 +93,7 @@
             return '<span class="token" style="background-color: ' + color + ';">' + text + '</span>';
           });
           html = html.replace(/\[badge:(.*?):(.*?)\]/g, function(match, color, text) {
-            return '<span class="badge badge-' + color + ';">' + text + '</span>';
+            return '<span class="badge badge-' + color + '">' + text + '</span>';
           });
           
           return editHtml + html;
