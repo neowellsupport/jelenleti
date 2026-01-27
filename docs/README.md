@@ -39,6 +39,7 @@ Főoldal content
 
 
 Ez egy [high:kiemelt] szöveg.
+
 Ez egy [low:secondary] szöveg.
 
 
