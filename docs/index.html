@@ -21,6 +21,42 @@
         color: white;
         line-height: 1;
     }
+    
+    .badge {
+       display: inline-block;
+        padding: 5px 10px;
+        border-radius: 5px;
+        font-size: 12px;
+        font-weight: bold;
+        line-height: 1;
+        border: 1px solid;
+    }
+
+    .badge-gray {
+      color: #4C5057;
+      background-color: #F0F3F4;
+      border-color: #E1E6EA;
+    }
+    .badge-blue {
+      color: #408BF6;
+      background-color: #F6FCFE;
+      border-color: #408BF6;
+    }
+    .badge-red {
+      color: #BD2612;
+      background-color: #FFF4F3;
+      border-color: #BD2612;
+    }
+    .badge-yellow {
+      color: #F3930C;
+      background-color: #F6FDF8;
+      border-color: #F3930C;
+    }
+    .badge-green {
+      color: #007547;
+      background-color: #FFFBEC;
+      border-color: #007547;
+    }
   </style>
 </head>
 <body>
@@ -46,7 +82,6 @@
         hook.beforeEach(function(html) {
           // A te felhasználóneved és repo neved alapján:
           var url = 'https://github.com/neowellsupport/jelenleti/blob/main/docs/' + vm.route.file;
-          
           var editHtml = '[📝](' + url + ')\n\n';
 
           html = html.replace(/\[token:(.*?):(.*?)\]/g, function(match, color, text) {
@@ -56,6 +91,9 @@
             if(color == 'green') color = '#1AAE9F';
             if(color == 'gray') color = '#707070';
             return '<span class="token" style="background-color: ' + color + ';">' + text + '</span>';
+          });
+          html = html.replace(/\[badge:(.*?):(.*?)\]/g, function(match, color, text) {
+            return '<span class="badge badge-' + color + ';">' + text + '</span>';
           });
           
           return editHtml + html;
