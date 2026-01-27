@@ -104,10 +104,10 @@
           html = html.replace(/\[badge:(.*?):(.*?)\]/g, function(match, color, text) {
             return '<span class="badge badge-' + color + '">' + text + '</span>';
           });
-          html = html.replace(/\[high:(.*?)\]/g, function(match, color, text) {
+          html = html.replace(/\[high:(.*?)\]/g, function(match, text) {
             return '<span class="text-highlight">' + text + '</span>';
           });
-          html = html.replace(/\[low:(.*?)\]/g, function(match, color, text) {
+          html = html.replace(/\[low:(.*?)\]/g, function(match, text) {
             return '<span class="text-lowlight">' + text + '</span>';
           });
           
