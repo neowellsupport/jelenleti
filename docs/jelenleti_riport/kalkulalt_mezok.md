@@ -2,7 +2,7 @@
 
 A riportban a rögíztett órákon kívül az alábbi kalkulált mezők jelennek meg:
 
-### Munkaórák összesen
+### Munkaórák összesen [badge:blue:MÓ]
 [token:gray:MÓ]
 Az adott hónapra beírt óraszámok összege.
 
