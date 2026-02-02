@@ -18,17 +18,17 @@ Napok száma, ahol kat4gória M, FSZ
 [badge:blue:ÁMH]
 MMÓ / MSZ hányadosa
 
-### MKH	Munkaidő keret hossza
+### Munkaidő keret hossza
 [badge:blue:MKH]
 [low:Csak Munkakeret használata esetén jelenik meg.]
 Munkarend szerinti óraszám, ahol kategória M, FSZ. Az egész keretre vonatkozó érték látszik, akkor is, ha az hosszabb, mint egy hónap.
 
-### HLO	Havi ledolgozandó órák
+### Havi ledolgozandó órák
 [badge:blue:HLO]
 [low:Csak akkor jelenik meg, ha nincs munkakeret beállítva.]
 Munkarend szerinti óraszám, ahol őstípus: M, FSZ
 
-### HBÓ	Hátralévő beosztható órák
+### Hátralévő beosztható órák
 [badge:blue:HBÓ]
 [low:Csak Munkakeret használata esetén jelenik meg.]
 [badge:gray:MKH] - [badge:gray:MMÓ] egész keretre (nem csak az adott hónap)
@@ -38,34 +38,35 @@ Munkarend szerinti óraszám, ahol őstípus: M, FSZ
 [TS:Csak akkor jelenik meg, ha nincs munkakeret beállítva.]
 [badge:gray:HLO] - [badge:gray:MMÓ]
 
-### ÁI	Állásidő
+### Állásidő
 [badge:blue:ÁI]
 [low:Csak akkor jelenik meg, ha nincs munkakeret beállítva.]
+
 M kategóriájú napokon azon különbségek összege, ahol kisebb a ledolgozott óraszám, mint a munkarend szerinti (napi szinten) (pl: 8 órás munkanapon 6 órát dolgozott)
 
-### ÁIK	Állásidő
+### Állásidő
 [badge:blue:ÁIK]
 [TS:Csak Munkakeret használata esetén jelenik meg.]
 [badge:gray:HBÓ] abszolút értéke, ha [badge:gray:HBÓ] > 0
 
-### TÓM	Túlóra - Munkanap
+### Túlóra - Munkanap
 [badge:blue:TÓM]
 [low:Csak akkor jelenik meg, ha nincs munkakeret beállítva.]
 M kategóriájú napokon azon napi eltérések összege, ahol nagyobb a ledolgozott óraszám, mint a munakrend szerinti óraszám (pl: 8 órás munkanapon 10 órát dolgozott)
 
-### TÓÜ	Túlóra - Ünnepnap
+### Túlóra - Ünnepnap
 [badge:blue:TÓÜ]
 P kategóriájú nap, ami naptár szerint ünnepnap, a beírt órák összege
 
-### TÓV	Túlóra - Vasárnap
+### Túlóra - Vasárnap
 [badge:blue:TÓV]
 P kategóriájú nap, ami naptár szerint ünnepnap, a beírt órák összege, és nem [badge:gray:TÓÜ]
 
-### TÓP	Túlóra - Pihenőnap
+### Túlóra - Pihenőnap
 [badge:blue:TÓP]
 P kategóriájú nap, ami naptár szerint ünnepnap, a beírt órák összege, és nem [badge:gray:TÓÜ] vagy [badge:gray:TÓV]
 
-### TÓMK	Túlóra - Munkanap
+### Túlóra - Munkanap
 [badge:blue:TÓMK]
 [low:Csak Munkakeret használata esetén jelenik meg.]
 [badge:gray:HBÓ] abszolút értéke, ha [badge:gray:HBÓ] < 0
