@@ -16,12 +16,13 @@ Főoldal content
 text [token:blue:KÉK] text
 text [token:red:PIROS] text
   
-[token:green:ZÖLD]
+[token:green:ZÖLD]  
+
   
-[token:yellow:SÁRGA]
-  
-[token:gray:SZÜRKE]
-  
+[token:yellow:SÁRGA]  
+
+[token:gray:SZÜRKE]  
+
 [badge:blue:KÉK]
 
 [badge:red:PIROS]
