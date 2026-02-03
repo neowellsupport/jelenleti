@@ -13,15 +13,19 @@ Főoldal content
 > [!DANGER]
 > Ez egy piros doboz. Kritikus hibák vagy veszélyek jelzésére.
 
-text1\
+text1
 \
+\
+\
+
 text2
 text3
 
 text [token:blue:KÉK] text  
 text [token:red:PIROS] text
 
-[token:green:ZÖLD]
+### Fejléc [token:green:ZÖLD]
+
 
 [token:yellow:SÁRGA]
 
