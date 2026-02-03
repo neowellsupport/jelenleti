@@ -1,3 +1,6 @@
+- Alapadatok
+  - [Alkalmazott import](alkalmazott_import.md)
+
 - Első fő menü csoport
 
   - [Főoldal](README.md)
