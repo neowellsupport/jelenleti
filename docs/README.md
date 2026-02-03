@@ -24,8 +24,6 @@ Főoldal content
 [token:gray:SZÜRKE]
 
 
-
-
 [badge:blue:KÉK]
 
 [badge:red:PIROS]
