@@ -92,6 +92,14 @@
         depth: 6,
         paths: 'auto'
       },
+      markdown: {
+        renderer: {
+          paragraph: function(text) {
+            // Kicseréli a sortöréseket <br>-re a bekezdéseken belül
+            return '<p>' + text.replace(/\n/g, '<br>') + '</p>';
+          }
+        }
+      },
       plugins: [
       function(hook, vm) {
         hook.beforeEach(function(html) {
@@ -117,7 +125,6 @@
             return '<span class="text-lowlight">' + text + '</span>';
           });
 
-          html = html.replace(/\n/g, '<br>');
           return editHtml + html;
         });
       }
