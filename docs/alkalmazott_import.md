@@ -22,6 +22,7 @@ Max hossz: [badge:gray:50 karakter]
 
 ### Email
 Az alkalmazott email címe.
+Típus: [badge:gray:email cím]
 
 | Validátor | Leírás |
 | ------| -----------|
@@ -33,3 +34,19 @@ Típus: [badge:gray:szöveges]
 Max hossz: [badge:gray:?? karakter]
 Formátum: [badge:gray:????]
 
+### Telefonszám
+
+### Pozíció
+Típus: [badge:gray:szöveges]
+Max hossz: [badge:gray:?? karakter]
+
+### Divízió
+Típus: [badge:gray:szöveges]
+Max hossz: [badge:gray:?? karakter]
+
+### Költséghely
+Típus: [badge:gray:szöveges]
+Max hossz: [badge:gray:?? karakter]
+
+
+### Munkakör
