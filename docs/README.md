@@ -14,6 +14,7 @@ Főoldal content
 > Ez egy piros doboz. Kritikus hibák vagy veszélyek jelzésére.
 
 text1\
+\
 text2
 text3
 
