@@ -23,7 +23,6 @@ Főoldal content
 
 [token:gray:SZÜRKE]
 
-
 [badge:blue:KÉK]
 
 [badge:red:PIROS]
@@ -33,7 +32,6 @@ Főoldal content
 [badge:yellow:SÁRGA]
 
 [badge:gray:SZÜRKE]
-
 
 
 Ez egy [high:kiemelt] szöveg.
