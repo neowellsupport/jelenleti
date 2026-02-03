@@ -11,12 +11,25 @@ Az alkalmazott törzset a felületen csoportosan import segítségével is lehet
 
 Az import file az alábbi oszlopokat tartalmazza:
 
-### ID
+### Név
+[badge:red:kötelező]
+Típus: [badge:gray:szöveges]
+Max hossz: [badge:gray:50 karakter]
 
 | Validátor | Leírás |
 | ------| -----------|
 | validátor1   | path to data files to supply the data that will be passed into templates. |
-| 2 | engine to be used for processing templates. Handlebars is the default. |
-| 3    | extension to be used for dest files. |
 
-### Alkalmazott neve
+### Email
+Az alkalmazott email címe.
+
+| Validátor | Leírás |
+| ------| -----------|
+| VLD_MAILFORMAT | Tartalmaznia kell 1 [badge:gray:@] karaktert, és legalább 1 [badge:gray:.] karaktert |
+
+### Adószám
+[badge:red:kötelező]
+Típus: [badge:gray:szöveges]
+Max hossz: [badge:gray:?? karakter]
+Formátum: [badge:gray:????]
+
