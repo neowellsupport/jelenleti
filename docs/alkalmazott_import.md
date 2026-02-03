@@ -4,12 +4,12 @@ Az alkalmazott törzset a felületen csoportosan import segítségével is lehet
 
 ## Alkalmazott törzs import táblázat struktúra
 
-Az import file:
-- fix fejléceket tartalmaz, azok nem módosíthatók
-- az oszlopok sorrendje felcserélhető
-- az egyes rekordok beazonosítása a [badge:blue:XXXX] oszlop alapján történik
+> [!NOTE|label:Import filera vonatkozó általános szabályok]
+> - fix fejléceket tartalmaz, azok nem módosíthatók
+> - az oszlopok sorrendje felcserélhető
+> - az egyes rekordok beazonosítása a [badge:blue:XXXX] oszlop alapján történik
 
-Az impport file az alábbi oszlopokat tartalmazza.
+Az import file az alábbi oszlopokat tartalmazza:
 
 ### ID
 
