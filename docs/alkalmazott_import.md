@@ -25,6 +25,7 @@ Az alkalmazott email címe.
 
 | Validátor | Leírás |
 |:------| :-----------|
+| KÖTELEZŐ | [badge:red:kötelező] |
 | FORMÁTUM | Tartalmaznia kell 1 [badge:gray:@] karaktert, és legalább 1 [badge:gray:.] karaktert |
 | HOSSZ | Legfeljebb [badge:gray:50] karakter hosszú lehet.|
 
