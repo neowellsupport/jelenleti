@@ -26,8 +26,9 @@ Az alkalmazott email címe.
 | Validátor | Leírás |
 |:------| :-----------|
 | KÖTELEZŐ | [badge:red:kötelező] |
-| FORMÁTUM | Tartalmaznia kell 1 [badge:gray:@] karaktert, és legalább 1 [badge:gray:.] karaktert |
+| FORMÁTUM | Tartalmaznia kell 1 [badge:gray:@] karaktert, és legalább 1 [badge:gray:.] karaktert | (Itt igazából gbobálisabb Email formátum ellenőrzés van, ami elvileg azt is kidobja ha a @ és . között nincs semmi vagy előtte utána ...)
 | HOSSZ | Legfeljebb [badge:gray:100] karakter hosszú lehet.|
+| DUPLIKÁCIÓ | Legfeljebb [badge:gray:1] - szer szerepelhet ugyanaz az email cím.|
 
 ### Adószám
 Az alkalmazott adóazonosító jele.
