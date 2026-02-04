@@ -6,7 +6,8 @@ Az alkalmazott törzset a felületen csoportosan import segítségével is lehet
 > - fix fejléceket tartalmaz, azok nem módosíthatók
 > - az oszlopok sorrendje felcserélhető
 > - az egyes rekordok beazonosítása a [badge:blue:XXXX] oszlop alapján történik
-xxx
+
+/
 Az import file az alábbi oszlopokat tartalmazza:
 /
 ### Név
