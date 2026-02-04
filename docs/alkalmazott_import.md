@@ -17,7 +17,7 @@ Az alkalmazott neve.
 | Validátor | Leírás |
 |:------| :-----------|
 | KÖTELEZŐ | [badge:red:kötelező] |
-| HOSSZ | Legfeljebb [badge:gray:50] karakter hosszú lehet.|
+| HOSSZ | Legfeljebb [badge:gray:100] karakter hosszú lehet.|
 
 ### Email
 Az alkalmazott email címe.
@@ -27,7 +27,7 @@ Az alkalmazott email címe.
 |:------| :-----------|
 | KÖTELEZŐ | [badge:red:kötelező] |
 | FORMÁTUM | Tartalmaznia kell 1 [badge:gray:@] karaktert, és legalább 1 [badge:gray:.] karaktert |
-| HOSSZ | Legfeljebb [badge:gray:50] karakter hosszú lehet.|
+| HOSSZ | Legfeljebb [badge:gray:100] karakter hosszú lehet.|
 
 ### Adószám
 Az alkalmazott adóazonosító jele.
