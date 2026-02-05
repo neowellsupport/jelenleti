@@ -99,7 +99,7 @@ Az alkalmazott telefonszáma.
 | Validátor | Leírás |
 |:------| :-----------|
 | FORMÁTUM | A következő értékek lehetnek: [badge:gray:Igen], [badge:gray:Nem], [badge:gray:0], [badge:gray:1], [badge:gray:Igaz], [badge:gray:Hamis]   |
-| Ebédidő vége függőség | Az ebédidő kezdete nem lehet nagyobb vagy egyenlő mint a ebédidő vége | 
+
 
 
 
