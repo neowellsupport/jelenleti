@@ -95,14 +95,17 @@ Az alkalmazott telefonszáma.
 | FORMÁTUM | [badge:gray:HH:PP] formátumú értelmezhető időpont |
 | Ebédidő kezdete függőség | Az ebédidő vége nem lehet kisebb vagy egyenlő mint a ebédidő kezdete | 
 
-### Ebédidő vége
- Validátor | Leírás |
+### Ebédidő része a munkaidőnek
+| Validátor | Leírás |
 |:------| :-----------|
-| KÖTELEZŐ | [badge:red:kötelező] ha az ebédidő része a munkaidőnek mező "Nem" |
-| FORMÁTUM |[badge:gray:HH:PP] formátumú értelmezhető időpont  | 
-| Ebédidő kezdete függőség | Az ebédidő vége nem lehet kisebb vagy egyenlő mint a ebédidő kezdete | 
+| FORMÁTUM | A következő értékek lehetnek: [badge:gray:Igen], [badge:gray:Nem], [badge:gray:0], [badge:gray:1], [badge:gray:Igaz], [badge:gray:Hamis]   |
+| Ebédidő vége függőség | Az ebédidő kezdete nem lehet nagyobb vagy egyenlő mint a ebédidő vége | 
 
-### Munkaidő vége
- Validátor | Leírás |
-|:------| :-----------|
-| FORMÁTUM |[badge:gray:HH:PP] formátumú értelmezhető időpont  | 
+
+
+
+
+
+
+
+
