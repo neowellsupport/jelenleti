@@ -73,8 +73,10 @@ Az alkalmazott telefonszáma.
  Validátor | Leírás |
 |:------| :-----------|
 | FORMÁTUM |[badge:gray:HH:PP] formátumú értelmezhető időpont  | 
+| Munkaidő vége függőség | A munkaidő kezdete nem lehet nagyobb vagy egyenlő mint a munkaidő vége | 
 
 ### Munkaidő vége
  Validátor | Leírás |
 |:------| :-----------|
 | FORMÁTUM |[badge:gray:HH:PP] formátumú értelmezhető időpont  | 
+| Munkaidő kezdete függőség | A munkaidő vége nem lehet kisebb vagy egyenlő mint a munkaidő kezdete | 
