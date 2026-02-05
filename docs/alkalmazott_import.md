@@ -50,6 +50,7 @@ Az alkalmazott telefonszáma.
 | Validátor | Leírás |
 |:------| :-----------|
 | HOSSZ | Legfeljebb [badge:gray:100] karakter hosszú lehet.|
+| LÉTREHOZÁS | Ha nem létezik a megadott pozíció a rendszerben, akkor automatikusan létrehozásra kerül|
 
 ### Divízió
 
