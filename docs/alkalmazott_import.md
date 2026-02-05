@@ -69,4 +69,12 @@ Az alkalmazott telefonszáma.
 |:------| :-----------|
 | LÉTEZÉS2 | Ha létező cím kerül megadásra, akkor hozzárendelésre kerül a felettes, ha nem akkor nem okoz validációs hibát, üres lesz a felettes mező|
 
+### Munkaidő kezdete
+ Validátor | Leírás |
+|:------| :-----------|
+| FORMÁTUM |[badge:gray:HH:PP] formátumú értelmezhető időpont  | 
 
+### Munkaidő vége
+ Validátor | Leírás |
+|:------| :-----------|
+| FORMÁTUM |[badge:gray:HH:PP] formátumú értelmezhető időpont  | 
