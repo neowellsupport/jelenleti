@@ -73,12 +73,25 @@ Az alkalmazott telefonszáma.
 | Validátor | Leírás |
 |:------| :-----------|
 | FORMÁTUM | [badge:gray:HH:PP] formátumú értelmezhető időpont |
+| Munkaidő vége függőség | A munkaidő kezdete nem lehet nagyobb vagy egyenlő mint a munkaidő vége | 
 
+### Munkaidő vége
+| Validátor | Leírás |
+|:------| :-----------|
+| FORMÁTUM | [badge:gray:HH:PP] formátumú értelmezhető időpont |
+| Munkaidő kezdete függőség | A munkaidő vége nem lehet kisebb vagy egyenlő mint a munkaidő kezdete | 
 
-### Munkaidő kezdete
+### Ebédidő kezdete
+| Validátor | Leírás |
+|:------| :-----------|
+| FORMÁTUM | [badge:gray:HH:PP] formátumú értelmezhető időpont |
+| Ebédidő vége függőség | Az ebédidő kezdete nem lehet nagyobb vagy egyenlő mint a ebédidő vége | 
+
+### Ebédidő vége
  Validátor | Leírás |
 |:------| :-----------|
 | FORMÁTUM |[badge:gray:HH:PP] formátumú értelmezhető időpont  | 
+| Ebédidő kezdete függőség | Az ebédidő vége nem lehet kisebb vagy egyenlő mint a ebédidő kezdete | 
 
 ### Munkaidő vége
  Validátor | Leírás |
