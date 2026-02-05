@@ -112,7 +112,15 @@ Az alkalmazott telefonszáma.
 | KÖTELEZŐ | [badge:red:kötelező] |
 | FORMÁTUM | [badge:gray:ÉÉÉÉ.HH.NN] formátumú értelmezhető dátum |
 
+### Távozás dátuma
+| Validátor | Leírás |
+|:------| :-----------|
+| FORMÁTUM | [badge:gray:ÉÉÉÉ.HH.NN] formátumú értelmezhető dátum |
 
+### Utolsó munkanap
+| Validátor | Leírás |
+|:------| :-----------|
+| FORMÁTUM | [badge:gray:ÉÉÉÉ.HH.NN] formátumú értelmezhető dátum |
 
 
 
