@@ -44,7 +44,7 @@ Az alkalmazott telefonszáma.
 
 | Validátor | Leírás |
 |:------| :-----------|
-| HOSSZ | Legfeljebb [badge:gray:50] karakter hosszú lehet.|
+| HOSSZ | Legfeljebb [badge:gray:15] karakter hosszú lehet.|
 | FORMÁTUM | ???|
 
 ### Pozíció
