@@ -36,7 +36,6 @@ Az alkalmazott adóazonosító jele.
 
 | Validátor | Leírás |
 |:------| :-----------|
-| KÖTELEZŐ | [badge:red:kötelező] |
 | HOSSZ | Legfeljebb [badge:gray:50] karakter hosszú lehet.|
 
 ### Telefonszám
