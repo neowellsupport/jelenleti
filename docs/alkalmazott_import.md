@@ -89,6 +89,13 @@ Az alkalmazott telefonszáma.
 | Ebédidő vége függőség | Az ebédidő kezdete nem lehet nagyobb vagy egyenlő mint a ebédidő vége | 
 
 ### Ebédidő vége
+| Validátor | Leírás |
+|:------| :-----------|
+| KÖTELEZŐ | [badge:red:kötelező] ha az ebédidő része a munkaidőnek mező "Nem" |
+| FORMÁTUM | [badge:gray:HH:PP] formátumú értelmezhető időpont |
+| Ebédidő kezdete függőség | Az ebédidő vége nem lehet kisebb vagy egyenlő mint a ebédidő kezdete | 
+
+### Ebédidő vége
  Validátor | Leírás |
 |:------| :-----------|
 | KÖTELEZŐ | [badge:red:kötelező] ha az ebédidő része a munkaidőnek mező "Nem" |
