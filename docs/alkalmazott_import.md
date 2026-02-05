@@ -38,6 +38,7 @@ Az alkalmazott adóazonosító jele.
 |:------| :-----------|
 | KÖTELEZŐ | [badge:red:kötelező] |
 | HOSSZ | Legfeljebb [badge:gray:50] karakter hosszú lehet.|
+| HOSSZ | Legfeljebb [badge:gray:50] karakter hosszú lehet.|
 | FORMÁTUM | ???|
 
 
