@@ -58,6 +58,15 @@ Az alkalmazott telefonszáma.
 | HOSSZ | Legfeljebb [badge:gray:100] karakter hosszú lehet.|
 | LÉTREHOZÁS | Ha nem létezik a megadott pozíció a rendszerben, akkor automatikusan létrehozásra kerül|
 
-### Költséghely
-
 ### Munkakör
+| Validátor | Leírás |
+|:------| :-----------|
+| HOSSZ | Legfeljebb [badge:gray:150] karakter hosszú lehet.|
+| LÉTEZÉS | A rendszerben már létező munkakörnek kell lennie|
+
+### Felettes (emailcíme)
+| Validátor | Leírás |
+|:------| :-----------|
+| LÉTEZÉS2 | Ha létező cím kerül megadásra, akkor hozzárendelésre kerül a felettes, ha nem akkor nem okoz validációs hibát, üres lesz a felettes mező|
+
+
