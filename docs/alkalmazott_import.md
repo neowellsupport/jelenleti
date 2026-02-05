@@ -45,10 +45,11 @@ Az alkalmazott telefonszáma.
 | Validátor | Leírás |
 |:------| :-----------|
 | HOSSZ | Legfeljebb [badge:gray:15] karakter hosszú lehet.|
-| FORMÁTUM | ???|
 
 ### Pozíció
-
+| Validátor | Leírás |
+|:------| :-----------|
+| HOSSZ | Legfeljebb [badge:gray:100] karakter hosszú lehet.|
 
 ### Divízió
 
