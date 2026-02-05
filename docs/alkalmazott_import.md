@@ -100,7 +100,17 @@ Az alkalmazott telefonszáma.
 |:------| :-----------|
 | FORMÁTUM | A következő értékek lehetnek: [badge:gray:Igen], [badge:gray:Nem], [badge:gray:0], [badge:gray:1], [badge:gray:Igaz], [badge:gray:Hamis]   |
 
+### Napi óraszám
+| Validátor | Leírás |
+|:------| :-----------|
+| KÖTELEZŐ | [badge:red:kötelező] |
+| FORMÁTUM | [badge:gray:1] és [badge:gray:24] közötti egész szám |
 
+### Csatlakozás dátuma
+| Validátor | Leírás |
+|:------| :-----------|
+| KÖTELEZŐ | [badge:red:kötelező] |
+| FORMÁTUM | [badge:gray:ÉÉÉÉ.HH.NN] formátumú értelmezhető dátum |
 
 
 
