@@ -98,6 +98,7 @@ Az alkalmazott telefonszáma.
 ### Ebédidő része a munkaidőnek
 | Validátor | Leírás |
 |:------| :-----------|
+| KÖTELEZŐ | [badge:red:kötelező] |
 | FORMÁTUM | A következő értékek lehetnek: [badge:gray:Igen], [badge:gray:Nem], [badge:gray:0], [badge:gray:1], [badge:gray:Igaz], [badge:gray:Hamis]   |
 
 ### Napi óraszám
@@ -127,7 +128,20 @@ Az alkalmazott telefonszáma.
 |:------| :-----------|
 | FORMÁTUM | [badge:gray:szám] |
 
+### Következő év szabadságok száma
+| Validátor | Leírás |
+|:------| :-----------|
+| FORMÁTUM | [badge:gray:szám] |
 
+### Pozíció
+| Validátor | Leírás |
+|:------| :-----------|
+| HOSSZ | Legfeljebb [badge:gray:50] karakter hosszú lehet.|
+
+### Meghívó küldése
+| Validátor | Leírás |
+|:------| :-----------|
+| FORMÁTUM | A következő értékek lehetnek: [badge:gray:Igen], [badge:gray:Nem], [badge:gray:0], [badge:gray:1], [badge:gray:Igaz], [badge:gray:Hamis]   |
 
 
 
