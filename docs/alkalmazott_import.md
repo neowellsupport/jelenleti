@@ -133,7 +133,7 @@ Az alkalmazott telefonszáma.
 |:------| :-----------|
 | FORMÁTUM | [badge:gray:egész szám] |
 
-### Pozíció
+### Külső azonosító (törzsszám)
 | Validátor | Leírás |
 |:------| :-----------|
 | HOSSZ | Legfeljebb [badge:gray:50] karakter hosszú lehet.|
