@@ -122,6 +122,11 @@ Az alkalmazott telefonszáma.
 |:------| :-----------|
 | FORMÁTUM | [badge:gray:ÉÉÉÉ.HH.NN] formátumú értelmezhető dátum |
 
+### Ez év szabadságok száma
+| Validátor | Leírás |
+|:------| :-----------|
+| FORMÁTUM | [badge:gray:szám] |
+
 
 
 
