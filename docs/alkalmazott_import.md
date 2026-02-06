@@ -126,12 +126,12 @@ Az alkalmazott telefonszáma.
 ### Ez év szabadságok száma
 | Validátor | Leírás |
 |:------| :-----------|
-| FORMÁTUM | [badge:gray:szám] |
+| FORMÁTUM | [badge:gray:egész szám] |
 
 ### Következő év szabadságok száma
 | Validátor | Leírás |
 |:------| :-----------|
-| FORMÁTUM | [badge:gray:szám] |
+| FORMÁTUM | [badge:gray:egész szám] |
 
 ### Pozíció
 | Validátor | Leírás |
