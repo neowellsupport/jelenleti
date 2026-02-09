@@ -67,7 +67,7 @@ Az alkalmazott telefonszáma.
 ### Felettes (emailcíme)
 | Validátor | Leírás |
 |:------| :-----------|
-| LÉTEZÉS2 | Ha létező cím kerül megadásra, akkor hozzárendelésre kerül a felettes, ha nem akkor nem okoz validációs hibát, üres lesz a felettes mező|
+| LÉTEZÉS | A rendszerben már létező munkakörnek kell lennie|
 
 ### Munkaidő kezdete
 | Validátor | Leírás |
