@@ -112,16 +112,22 @@ Az alkalmazott telefonszáma.
 |:------| :-----------|
 | KÖTELEZŐ | [badge:red:kötelező] |
 | FORMÁTUM | [badge:gray:ÉÉÉÉ.HH.NN] formátumú értelmezhető dátum |
+| Távozás dátuma függőség | Az utolsó munkanap nem lehet kisebb mint a csatlakozás dátuma | 
+| Csatlakozás dátuma függőség | Az utolsó munkanap nem lehet kisebb mint a csatlakozás dátuma | 
 
 ### Távozás dátuma
 | Validátor | Leírás |
 |:------| :-----------|
 | FORMÁTUM | [badge:gray:ÉÉÉÉ.HH.NN] formátumú értelmezhető dátum |
+| Távozás dátuma függőség | Az utolsó munkanap nem lehet nagyobb mint a távozás dátuma | 
+| Csatlakozás dátuma függőség | Az utolsó munkanap nem lehet kisebb mint a csatlakozás dátuma | 
 
 ### Utolsó munkanap
 | Validátor | Leírás |
 |:------| :-----------|
 | FORMÁTUM | [badge:gray:ÉÉÉÉ.HH.NN] formátumú értelmezhető dátum |
+| Távozás dátuma függőség | Az utolsó munkanap nem lehet nagyobb mint a távozás dátuma | 
+| Csatlakozás dátuma függőség | Az utolsó munkanap nem lehet kisebb mint a csatlakozás dátuma | 
 
 ### Ez év szabadságok száma
 | Validátor | Leírás |
