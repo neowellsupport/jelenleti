@@ -12,7 +12,7 @@ Azokra a napokra beírt óraszámok összege, amelyeknek kategóriája: M, SZ, F
 
 ### Munkanapok száma
 [badge:blue:MSZ]
-Napok száma, ahol kat4gória M, FSZ
+Napok száma, ahol kategória M, FSZ
 
 ### Átlagos munkanap hossza (óra)
 [badge:blue:ÁMH]
