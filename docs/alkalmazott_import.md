@@ -99,7 +99,7 @@ Az alkalmazott telefonszáma.
 | Validátor | Leírás |
 |:------| :-----------|
 | KÖTELEZŐ | [badge:red:kötelező] |
-| FORMÁTUM | A következő értékek lehetnek: [badge:gray:Igen], [badge:gray:Nem], [badge:gray:0], [badge:gray:1], [badge:gray:Igaz], [badge:gray:Hamis]   |
+| FORMÁTUM | A következő értékek lehetnek: [badge:gray:0], [badge:gray:1]  |
 
 ### Napi óraszám
 | Validátor | Leírás |
@@ -141,7 +141,7 @@ Az alkalmazott telefonszáma.
 ### Meghívó küldése
 | Validátor | Leírás |
 |:------| :-----------|
-| FORMÁTUM | A következő értékek lehetnek: [badge:gray:Igen], [badge:gray:Nem], [badge:gray:0], [badge:gray:1], [badge:gray:Igaz], [badge:gray:Hamis]   |
+| FORMÁTUM | A következő értékek lehetnek: [badge:gray:0], [badge:gray:1]  |
 
 
 
