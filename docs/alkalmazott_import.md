@@ -133,11 +133,13 @@ Az alkalmazott telefonszáma.
 | Validátor | Leírás |
 |:------| :-----------|
 | FORMÁTUM | [badge:gray:egész szám] |
+| FORMÁTUM | maximum [badge:gray:365] lehet|
 
 ### Következő év szabadságok száma
 | Validátor | Leírás |
 |:------| :-----------|
 | FORMÁTUM | [badge:gray:egész szám] |
+| FORMÁTUM | maximum [badge:gray:365] lehet|
 
 ### Külső azonosító (törzsszám)
 | Validátor | Leírás |
